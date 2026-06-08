@@ -9,7 +9,7 @@ body {
 .container {
   width: 720px;
   margin: 40px auto;
-  background: white;
+  background: rgb(59, 53, 53);
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -73,7 +73,7 @@ button:hover {
   max-width: 580px;
   font-size: 18px;
   border: 2px solid #ddd;
-  background: #316599;
+  background: #0f6dcc;
   border-radius: 12px;
   transition: all 0.3s;
   text-align: left;
@@ -82,7 +82,7 @@ button:hover {
 .answer-btn:hover {
   background: #e9ecef;
   transform: translateY(-3px);
-  border-color: #007bff;
+  border-color: #a6afb9;
 }
 
 .correct {
