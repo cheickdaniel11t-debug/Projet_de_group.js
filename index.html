@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Interactif</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz Interactif</h1>
+
+      <div id="startScreen">
+        <input type="text" id="pseudo" placeholder="Votre pseudo" required />
+        <button id="startBtn">Commencer le Quiz</button>
+      </div>
+
+      <div id="quizScreen" class="hidden">
+        <h2 id="question"></h2>
+
+        <p>Temps restant : <span id="timer">30</span>s</p>
+
+        <div id="answers"></div>
+
+        <p id="feedback"></p>
+      </div>
+
+      <div id="resultScreen" class="hidden">
+        <h2>Résultat du Quiz</h2>
+
+        <p id="scoreText"></p>
+        <p id="message"></p>
+
+        <button id="restartBtn">Rejouer</button>
+
+        <h3>Classement</h3>
+        <ul id="ranking"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
